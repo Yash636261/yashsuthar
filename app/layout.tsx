@@ -7,6 +7,7 @@ import {
   Kulim_Park,
 } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 const satisfy = Satisfy({
   variable: "--font-satisfy",
@@ -101,6 +102,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <Analytics />
     </html>
   );
 }

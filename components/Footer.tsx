@@ -11,6 +11,8 @@ const Footer = () => {
         <Link href='/github' className=" " target="_blank" rel="noopener noreferrer">github</Link>
         <Link href='/linkedIn' className=" " target="_blank" rel="noopener noreferrer">linkedin</Link>
       </div>
+
+      
     </div>
   );
 };
