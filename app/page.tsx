@@ -5,15 +5,17 @@ import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Service from "../components/Service";
+import BookCall from "@/components/BookCall";
 
 export default function Home() {
   return (
-    <div className=" bg-white">
+    <div className=" bg-white scroll-smooth">
       <Hero />
       <Skills />
       <Experience />
       <Projects />
       <Service />
+      <BookCall />
       <Footer />
     </div>
   );

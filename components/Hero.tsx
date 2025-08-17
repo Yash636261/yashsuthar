@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className=" bg-white text-black min-h-screen ">
+    <section className=" bg-white text-black min-h-screen " id="hero">
       <Navbar />
       <div
         className=" w-full  h-full p-5
@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

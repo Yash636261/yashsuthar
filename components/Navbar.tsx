@@ -8,9 +8,10 @@ const Navbar = () => {
         yash suthar
       </Link>
       <div className="flex gap-4">
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/#projects">Projects</Link>
+        <Link href="/#book-call">BookCall</Link>
+        <Link href="/#services">Services</Link>
+        <Link href="/#experience">Experience</Link>
       </div>
     </div>
   );

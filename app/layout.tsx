@@ -7,7 +7,7 @@ import {
   Kulim_Park,
 } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 const satisfy = Satisfy({
   variable: "--font-satisfy",
@@ -98,7 +98,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${satisfy.variable} ${roboto.variable} ${kulim_park.variable} antialiased font-roboto`}
+        className={`${satisfy.variable} ${roboto.variable} ${kulim_park.variable} antialiased font-roboto scroll-smooth`}
       >
         {children}
       </body>
