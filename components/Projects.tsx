@@ -30,16 +30,17 @@ const Projects = () => {
       image:
         "https://res.cloudinary.com/dt77luabi/image/upload/v1755438077/Screenshot_2025-08-17_190900_svswmt.webp",
       tags: ["Node.js", "Express"],
+
       link: "https://med-vault-ten.vercel.app/",
     },
   ];
   return (
-    <section id="projects" className=" text-black bg-white px-10 py-20">
-      <h1 className=" mb-10 text-5xl text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
+    <section id="projects" className=" text-black bg-white container">
+      <h1 className="  title text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
         Projects
       </h1>
-      <div className=" grid grid-cols-2 gap-5 max-w-5xl mx-auto ">
-        <div className=" col-span-2">
+      <div className=" grid md:grid-cols-2 gap-5 max-w-5xl mx-auto ">
+        <div className=" md:col-span-2">
           <Card
             title={projects[0].title}
             description={projects[0].description}

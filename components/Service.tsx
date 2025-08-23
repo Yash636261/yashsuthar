@@ -48,12 +48,12 @@ const services = [
 
 const Service = () => {
   return (
-    <section id="services" className=" text-black bg-gray-50 px-10 py-20">
-      <h1 className=" mb-10 text-5xl text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
+    <section id="services" className=" text-black bg-gray-50 container">
+      <h1 className=" title text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
         Services
       </h1>
 
-      <div className=" grid grid-cols-3 gap-5 max-w-5xl mx-auto ">
+      <div className=" grid grid-cols-2 md:grid-cols-3 gap-3  md:gap-5 max-w-5xl mx-auto ">
         {services.map((service, index) => (
           <div
             key={index}
@@ -65,17 +65,19 @@ const Service = () => {
                 alt="service"
                 width={70}
                 height={70}
-                className=" -rotate-12 hover:-translate-y-2 transition-all duration-300"
+                className=" size-12 md:size-16 lg:size-20 -rotate-12 hover:-translate-y-2 transition-all duration-300"
               />{" "}
               <Image
                 src={service.image[1]}
                 alt="service"
                 width={70}
                 height={70}
-                className=" rotate-12 hover:-translate-y-2 transition-all duration-300"
+                className="  size-12 md:size-16 lg:size-20 rotate-12 hover:-translate-y-2 transition-all duration-300"
               />
             </div>
-            <h2 className=" text-lg font-medium">{service.title}</h2>
+            <h2 className="text-sm md:text-base lg:text-lg font-medium">
+              {service.title}
+            </h2>
           </div>
         ))}
       </div>

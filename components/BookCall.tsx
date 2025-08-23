@@ -16,8 +16,8 @@ const BookCall = () => {
   }, []);
 
   return (
-    <section className="w-full  px-10 py-20 bg-background" id="book-call">
-      <h1 className=" mb-10 text-5xl text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
+    <section className="w-full container bg-background" id="book-call">
+      <h1 className=" title text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
         Book a Call
       </h1>
       <div className="flex flex-col items-center justify-center space-y-10 text-center">
