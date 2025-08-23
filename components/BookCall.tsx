@@ -16,7 +16,7 @@ const BookCall = () => {
   }, []);
 
   return (
-    <section className="w-full container bg-background" id="book-call">
+    <section className="w-full container-section bg-background" id="book-call">
       <h1 className=" title text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
         Book a Call
       </h1>

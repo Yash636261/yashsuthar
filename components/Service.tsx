@@ -1,54 +1,10 @@
 import Image from "next/image";
 import React from "react";
-
-const services = [
-  {
-    title: "Frontend Development",
-    image: [
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-    ],
-  },
-  {
-    title: "Backend Development",
-    image: [
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-    ],
-  },
-  {
-    title: "UI/UX Design",
-    image: [
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-    ],
-  },
-  {
-    title: "SEO",
-    image: [
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-    ],
-  },
-  {
-    title: "Performance Optimization",
-    image: [
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-    ],
-  },
-  {
-    title: "Full-Stack Web Apps",
-    image: [
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-      "https://framerusercontent.com/images/4qLHrn6B8ZLDOrsHXxKmnlbzo40.png?scale-down-to=512",
-    ],
-  },
-];
+import { services } from "../config/data";
 
 const Service = () => {
   return (
-    <section id="services" className=" text-black bg-gray-50 container">
+    <section id="services" className=" text-black bg-gray-50 container-section">
       <h1 className=" title text-center font-normal bg-gradient-to-b from-black to-[#888888] bg-clip-text text-transparent">
         Services
       </h1>

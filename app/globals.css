@@ -128,8 +128,8 @@ html {
 .title {
   @apply text-3xl md:text-4xl lg:text-5xl mb-5 md:mb-10;
 }
-.container {
-  @apply px-5 py-10 md:px-10 md:py-20;
+.container-section {
+  @apply px-5 py-10 md:px-10 md:py-20 w-full;
 }
 
 .text-h1 {
